@@ -1,0 +1,42 @@
+body{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.side{
+  border: 2px solid rgb(200, 200, 250);
+}
+ul{
+  padding: 0;
+}
+li{
+  display: grid;
+  grid-template-columns: 2fr 4fr 4fr;
+  padding: 0;
+}
+.time{text-align: center;}
+.team{
+  justify-content: space-around;
+  display: flex;
+}
+.away-team{
+  flex-direction: row-reverse;
+}
+
+.teams{
+  display: flex;
+  justify-content: space-around;
+}
+.teams p{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;; text-align: center;}
+.games{overflow-y:scroll;}
